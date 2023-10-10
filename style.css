@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cambria;
+}
+
+
+:root{
+    --primary-color: #fff;
+    --navy-color: #780016;
+    --ltblue-color: #9DAAF2;
+    --yellow-color: #F4DB7D;
+    --orange-color: #0e0502;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header section style*/
+
+header{
+    background: #780016;
+    color: var(--primary-color);
+
+
+}
+
+.nav-bar{
+    padding: 30px 0;
+}
+
+ul li a{
+    margin: 0 10px;
+    padding: 0 5px;
+    color: var(--yellow-color);
+}
+
+.btn{
+    width: 100px;
+    height: 40px;  
+    border-radius: 8px;
+    background-color: var(--orange-color);
+    color: var(--primary-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: var(--ltblue-color);
+    color: var(--primary-color);
+    border: 2px solid var(--yellow-color);
+}
+
+.content{
+    height: 90vh;
+}
+
+span{
+    color: var(--orange-color)
+}
+
+.btn2{
+    width: 140px;
+}
+
+.right img{
+    width: 60%;
+    
+    
+}
+
+h4, p{
+    font-family: cambria;
+}
+
+/* about section */
+
+.about-me-sec{
+    min-height: 100vh;
+    background-color: var(--navy-color);
+    color: var(--primary-color);
+}
+
+.about-me-sec hr{
+    border: 2px solid var(--yellow-color);
+    margin-bottom: 2rem;
+}
+
+.about-content ul{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.about-content span{
+    color: var(--primary-color);
+}
+
+/*hobbies*/
+.my-hobie-sec{
+    min-height: 30vh;
+    background-color: var(--navy-color);
+    color: var(--primary-color);
+}
+
+.my-hobie-sec hr{
+    border: 2px solid var(--yellow-color);
+    margin-bottom: 2rem;
+}
+
+.hoby-content span{
+    color: var(--orange-color);
+}
+
+
+/* contact us*/
+.my-contact-sec{
+    min-height: 40vh;
+    background-color: var(--navy-color);
+    color: var(--primary-color);
+}
+
+.my-contact-sec hr{
+    border: 2px solid var(--yellow-color);
+    margin-bottom: 2rem;
+}
+
+.contact-content span{
+    color: var(--orange-color);
+}
+.layout{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.space-btw{
+    justify-content: space-between;
+}
+
+.align-cntr{
+    align-items: center;
+}
+
+.justify-cntr{
+    justify-content: center;
+}
+
+.upprclass{
+    text-transform: uppercase;
+}
+
+.f-w-500{
+    font-weight: 500;
+}
+
+.f-w-600{
+    font-weight: 600;
+}
+
+.f-w-700{
+    font-weight: 700;
+}
+
+.letter-spacing2{
+    letter-spacing: 2px;
+}
+
+.flex2{
+    flex: 2;
+}
+
+.flex3{
+    flex: 3;
+}
+
+.my-t-10{
+    margin-top: 10px;
+}
+.my-t-20{
+    margin-top: 20px;
+}
+
+.pd-t-30{
+    padding-top: 30px;
+}
+.w55{
+    width: 60%;
+}
+
+.text-cntr{
+    text-align: center;
+}
